@@ -11,9 +11,9 @@ on:
       mode:
         description: '运行模式'
         required: true
-        default: 'full'
+        default: 'stocks-only'
         type: choice
-        options:
+        options: 
           - full          # 完整分析（股票+大盘）
           - market-only   # 仅大盘复盘
           - stocks-only   # 仅股票分析
